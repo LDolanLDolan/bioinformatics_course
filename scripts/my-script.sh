@@ -1,4 +1,4 @@
-!/usr/bin/env bash
+#!/usr/bin/env bash
 # make empty directories in your git repo
 mkdir -p analysis docs data
 # add a README.md to each directory
