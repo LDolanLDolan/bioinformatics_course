@@ -206,10 +206,31 @@ This directory is the main data directory. It contains the following subdirector
 ## **Usage**
 
 1. **Navigate to the pipeline directory:**  
-   cd \~/ngs\_course/assessment\_pipeline
+   ## Example
+```bash
+# Navigate to the scripts directory
+cd bioinformatics_course/scripts/
+
+# Ensure the script has execute permissions
+chmod +x pipeline_one.sh
 
 2. **Run the pipeline script:**  
-   ./pipeline.sh
+   ./pipeline_one.sh
+
+   ## Notes
+- Ensure all dependencies are installed and accessible in your system's `PATH`.
+- Modify the script's parameters as needed to suit your specific dataset or analysis requirements.
+- For large datasets, ensure sufficient disk space and memory are available.
+
+## Prerequisites
+- **Bash**: Ensure you have Bash installed (version 4.0 or higher).
+- **BWA**: For sequence alignment.
+- **SAMtools**: For processing SAM/BAM files.
+- **Picard**: For marking duplicates.
+- **FreeBayes**: For variant calling.
+- **ANNOVAR**: For variant annotation.
+
+
 
 ## **Pipeline Steps**
 
