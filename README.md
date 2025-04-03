@@ -27,7 +27,7 @@ This pipeline is designed to process Next-Generation Sequencing (NGS) data, star
 * [Prerequisites](#prerequisites)
 * [Version Control](#version-control)
 * [Author](#author)
-* [License](#license)
+
 
 ##   Dependencies
 
@@ -271,25 +271,26 @@ To use the pipeline, follow these steps:
 1.  **Clone the repository to your local machine:**
 
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/LDolanLDolan/bioinformatics_course
     ```
 
 2.  **Navigate to the pipeline directory:**
 
     ```bash
-    cd <repository_name>
+    cd bioinformatics_course
+    cd scripts
     ```
 
 3.  **Ensure the pipeline script has execute permissions:**
 
     ```bash
-    chmod +x pipeline.sh
+    chmod +x pipeline_one.sh
     ```
 
 4.  **Run the pipeline script:**
 
     ```bash
-    ./pipeline.sh
+    ./pipeline_one.sh
     ```
 
 ##   Pipeline Steps
